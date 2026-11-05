@@ -1,0 +1,18 @@
+{
+    "codingcopilot.enableWorkspaceRules": true,
+    "augment.advanced": {
+        "mcpServers": [
+            {
+                "name": "cloudbase",
+                "command": "npx",
+                "args": [
+                    "-y",
+                    "@cloudbase/cloudbase-mcp@latest"
+                ],
+                "env": {
+                    "INTEGRATION_IDE": "Augment"
+                }
+            }
+        ]
+    }
+}
